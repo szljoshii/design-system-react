@@ -51,9 +51,9 @@ declare module '@salesforce/design-system-react/components/tabs' {
 		onSelect?: (v: any) => any;
 
 		/**
-		 * If the Tabs should be scopped, defaults to false
+		 * If the Tabs should be scoped or vertical, defaults to false
 		 */
-		variant?: 'default' | 'scoped';
+		variant?: 'default' | 'scoped' | 'vertical';
 
 		/**
 		 * The Tab (and corresponding TabPanel) that is currently selected.
